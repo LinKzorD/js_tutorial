@@ -2,7 +2,7 @@
 // IIFE to create a Function, which will return an object
 // and that object will have defined functions and variables that
 // will then be scoped to one variable
-// This way variables and fucntions will be essentially private (encapsulation)
+// This way variables and functions will be essentially private (encapsulation)
 // They will be unavailable outsite of the public variables and 
 // the public functions we will return
 
