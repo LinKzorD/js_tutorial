@@ -1,15 +1,13 @@
-function isCapicua(word) {
-    let wordArray = word.split('');
-    let wordRev = [...wordArray].reverse();
+const isCapicua = (word) => {
+    const wordArray = word.split('');
+    const wordRev = [...wordArray].reverse();
 
-    for(i = 0; i < word.length; i++) {
+    for(let i = 0, ii = word.lenght; i < ii; i++) {
         if(wordArray[i] !== wordRev[i]) {
             return false;
         }
     }
     return true;
-    // console.log({wordArray, wordRev});
-    // console.log([...wordArray]);
 }
 
 console.log(isCapicua('arara'));
